@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "20240101Odai": {
+      "commandName": "Project",
+      "commandLineArgs": "01-08-2024"
+    }
+  }
+}
