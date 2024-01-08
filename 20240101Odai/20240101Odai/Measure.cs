@@ -27,7 +27,7 @@ internal class Measure
 
 	static void Profile( string input )
 	{
-		Console.WriteLine( "計測中...");
+		Console.Write( "計測中...");
 		var sw = new System.Diagnostics.Stopwatch();
 		sw.Start();
 		for( int i = 0 ; i < 100000000 ; i++ )
@@ -37,7 +37,7 @@ internal class Measure
 		sw.Stop();
 		Console.WriteLine( $"DateTime: {sw.ElapsedMilliseconds}ms" );
 
-		Console.WriteLine( "計測中..." );
+		Console.Write( "計測中..." );
 		sw.Restart();
 		for( int i = 0 ; i < 100000000 ; i++ )
 		{
